@@ -18,11 +18,11 @@ export const socialsData = [
     name: "Leetcode",
     url: "https://leetcode.com/saran1522",
   },
-  {
-    icon: FaTwitter,
-    name: "Twitter",
-    url: "https://twitter.com/tweetsarann",
-  },
+  // {
+  //   icon: FaTwitter,
+  //   name: "Twitter",
+  //   url: "https://twitter.com/tweetsarann",
+  // },
   // {
   //   icon: CgNotes,
   //   name: "My Blogs",

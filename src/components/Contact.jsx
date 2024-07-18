@@ -24,7 +24,7 @@ function Contact() {
         ></textarea>
         <a
           href="#"
-          className="w-[80%] rounded-lg bg-gray-500 p-4 text-center text-white"
+          className="w-[80%] rounded-lg bg-primary-400 p-4 text-center text-white"
         >
           Send Message
         </a>

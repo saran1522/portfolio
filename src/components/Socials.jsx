@@ -13,7 +13,7 @@ function Socials() {
             <a
               href={social.url}
               key={social.icon}
-              className="dark:bg-primary-400 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-xl p-3 font-light text-primary-600 shadow-[0_0_15px_rgba(0,0,0,0.130)] dark:text-gray-300"
+              className="flex cursor-pointer flex-col items-center justify-center gap-2 rounded-xl p-3 font-light text-primary-600 shadow-[0_0_15px_rgba(0,0,0,0.130)] dark:bg-primary-400 dark:text-gray-300"
               target="_blank"
             >
               <span className="lg:text-xl">
@@ -24,7 +24,7 @@ function Socials() {
           );
         })}
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 md:mt-4">
         <SocialButton
           name="Blogs"
           icon={PiNotepadLight}
