@@ -26,12 +26,6 @@ export const projectsData = [
     live: "https://github.com/saran1522/streamtube-backend",
   },
   {
-    name: "MovieVerse",
-    src: "movieverse.png",
-    github: "https://github.com/saran1522/MovieVerse",
-    live: "https://react-movie-verse.netlify.app/",
-  },
-  {
     name: "Multifunction Nexus",
     src: "multifunction.png",
     github: "https://github.com/saran1522/Multifunction",
@@ -43,24 +37,30 @@ export const projectsData = [
     github: "https://github.com/saran1522/dbchatbot",
     live: "http://192.168.43.227:8080/",
   },
-  {
-    name: "Weather App",
-    src: "weather.png",
-    github: "https://github.com/saran1522/Weather-App",
-    live: "https://weather-app-by-saran.netlify.app/",
-  },
-  {
-    name: "Notes App",
-    src: "notesapp.png",
-    github: "https://github.com/saran1522/Notes-Firebase-App",
-    live: "https://notes-app-by-saran.netlify.app/",
-  },
-  {
-    name: "Meme Generator",
-    src: "meme.png",
-    github: "https://github.com/saran1522/meme-generator",
-    live: "https://meme-generator-by-sarann.netlify.app/",
-  },
+  // {
+  //   name: "MovieVerse",
+  //   src: "movieverse.png",
+  //   github: "https://github.com/saran1522/MovieVerse",
+  //   live: "https://react-movie-verse.netlify.app/",
+  // },
+  // {
+  //   name: "Weather App",
+  //   src: "weather.png",
+  //   github: "https://github.com/saran1522/Weather-App",
+  //   live: "https://weather-app-by-saran.netlify.app/",
+  // },
+  // {
+  //   name: "Notes App",
+  //   src: "notesapp.png",
+  //   github: "https://github.com/saran1522/Notes-Firebase-App",
+  //   live: "https://notes-app-by-saran.netlify.app/",
+  // },
+  // {
+  //   name: "Meme Generator",
+  //   src: "meme.png",
+  //   github: "https://github.com/saran1522/meme-generator",
+  //   live: "https://meme-generator-by-sarann.netlify.app/",
+  // },
   // {
   //   name: "Project 1",
   //   src: src,

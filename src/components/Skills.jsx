@@ -7,7 +7,7 @@ function Skills() {
       <h3 className="text-center text-5xl font-normal leading-relaxed dark:text-gray-300">
         Skills
       </h3>
-      <div className="flex flex-wrap justify-center gap-4 p-4 md:gap-10 md:p-10 lg:w-[80%]">
+      <div className="flex flex-wrap justify-center gap-4 p-4 md:w-[80%] md:gap-6 md:p-10">
         {skillsData.map((skill) => (
           <div className="flex flex-col items-center justify-center gap-3 rounded-xl border border-gray-300 p-2 text-gray-700 dark:border-gray-600 dark:text-gray-400">
             <span>{<skill.icon size={24} />}</span>

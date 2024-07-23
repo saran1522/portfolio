@@ -14,7 +14,7 @@ function App() {
   return (
     // <div className={`${isDark ? "dark" : ""} bg-[#f2f9f9] dark:bg-primary-600`}>
     <div
-      className={`${isDark ? "dark" : ""} font-CF bg-white dark:bg-primary-600`}
+      className={`${isDark ? "dark" : ""} bg-white font-CF dark:bg-primary-600`}
     >
       <Header isDark={isDark} handleThemeChange={handleThemeChange} />
       <Hero />

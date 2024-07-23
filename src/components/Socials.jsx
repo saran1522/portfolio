@@ -6,8 +6,8 @@ import SocialButton from "./SocialButton";
 
 function Socials() {
   return (
-    <div className="flex flex-col flex-wrap items-center justify-center gap-4">
-      <div className="flex gap-2 lg:gap-8">
+    <div className="flex flex-col flex-wrap items-center justify-center">
+      <div className="flex gap-4 md:gap-5">
         {socialsData.map((social) => {
           return (
             <a
@@ -24,7 +24,7 @@ function Socials() {
           );
         })}
       </div>
-      <div className="flex gap-4 md:mt-4">
+      <div className="flex gap-2 md:mt-4">
         <SocialButton
           name="Blogs"
           icon={PiNotepadLight}
@@ -35,11 +35,11 @@ function Socials() {
           icon={IoMailOutline}
           url={`mailto:saransinha205@gmail.com`}
         />
-        <SocialButton
+        {/* <SocialButton
           name="Resume"
           icon={IoPaperPlaneOutline}
           url="https://drive.google.com/file/d/1G_4VmpaTkMZv040p3GsdvZ04H-Ozm1EV/view?usp=drive_link"
-        />
+        /> */}
       </div>
     </div>
   );
