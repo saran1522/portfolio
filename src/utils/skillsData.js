@@ -3,7 +3,6 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { RiNextjsLine } from "react-icons/ri";
 import { GrMysql } from "react-icons/gr";
 import { IoIosArrowDropright } from "react-icons/io";
-import { AiTwotoneHtml5 } from "react-icons/ai";
 import {
   SiTypescript,
   SiExpress,
@@ -19,6 +18,10 @@ import {
   SiPostman,
   SiShadcnui,
   SiHtml5,
+  SiClerk,
+  SiGooglegemini,
+  SiReactrouter,
+  SiDocker,
 } from "react-icons/si";
 
 export const skillsData = [
@@ -67,6 +70,10 @@ export const skillsData = [
     icon: SiRedux,
   },
   {
+    name: "React Router",
+    icon: SiReactrouter,
+  },
+  {
     name: "Tailwind",
     icon: SiTailwindcss,
   },
@@ -79,7 +86,7 @@ export const skillsData = [
     icon: IoIosArrowDropright,
   },
   {
-    name: "Shad Cn",
+    name: "Shadcn",
     icon: SiShadcnui,
   },
   {
@@ -91,8 +98,20 @@ export const skillsData = [
     icon: SiSupabase,
   },
   {
+    name: "Docker",
+    icon: SiDocker,
+  },
+  {
     name: "Postman",
     icon: SiPostman,
+  },
+  {
+    name: "Clerk",
+    icon: SiClerk,
+  },
+  {
+    name: "Gemini API",
+    icon: SiGooglegemini,
   },
   {
     name: "SQL",

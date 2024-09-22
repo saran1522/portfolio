@@ -5,6 +5,8 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Reports from "./components/Reports";
 
 function App() {
   const [isDark, setIsDark] = useState(false);
@@ -12,15 +14,23 @@ function App() {
     setIsDark((prevIsDark) => !prevIsDark);
   }
   return (
-    // <div className={`${isDark ? "dark" : ""} bg-[#f2f9f9] dark:bg-primary-600`}>
     <div
-      className={`${isDark ? "dark" : ""} bg-white font-CF dark:bg-primary-600`}
+      className={`${isDark ? "dark" : ""} h-full bg-[#f9fefa] dark:bg-zinc-900`}
     >
-      <Header isDark={isDark} handleThemeChange={handleThemeChange} />
-      <Hero />
-      <Projects />
-      <Skills />
-      <Contact />
+      <div id="home">
+        <Navbar isDark={isDark} handleThemeChange={handleThemeChange} />
+        <Hero />
+      </div>
+      {/* <Projects /> */}
+      <div id="projects">
+        <Reports />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <Footer />
     </div>
   );

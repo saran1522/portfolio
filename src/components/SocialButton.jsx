@@ -4,7 +4,7 @@ function SocialButton({ name, icon: Icon, url }) {
   return (
     <a
       href={url}
-      className="mt-6 flex w-[150px] items-center justify-center gap-4 rounded-xl bg-gray-800 p-3 text-center font-light text-white md:mt-0 lg:mt-0 dark:border dark:border-gray-500 dark:bg-transparent dark:text-gray-300"
+      className="mt-6 flex items-center justify-center gap-2 rounded-xl bg-gray-800 px-3 py-2 text-center font-light text-white md:mt-0 lg:mt-0 dark:border dark:border-gray-500 dark:bg-transparent dark:text-gray-300"
       target="_blank"
     >
       {name}

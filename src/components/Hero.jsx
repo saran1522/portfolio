@@ -3,19 +3,19 @@ import Socials from "./Socials";
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 text-primary-600 dark:text-gray-300">
-      <img src="/pfp4.png" className="h-56" alt="" />
-      <h3 className="text-center text-4xl font-normal md:text-5xl">
-        Hi, I am Saran Sinha
-      </h3>
-      <p className="p-4 text-center font-light leading-10 lg:w-[80%] lg:text-xl lg:leading-10">
-        I'm a full-stack developer based in India. Alongside development, I also
-        solve Data Structures and Algorithmic challenges and share my knowledge
-        through technical blogs. Always learning and growing. Curious to know
-        more? Keep scrolling!
-      </p>
-      <div>
-        <Socials />
+    <div className="pt-32 text-primary-600 dark:text-gray-300">
+      <div className="flex flex-col items-center justify-center gap-4">
+        <div className="flex h-32 w-32 items-center justify-center rounded-full bg-gray-50 shadow-[0_0_15px_rgba(0,0,0,0.1)] dark:bg-[#ffffff0b]">
+          <img src="/pfp5.png" className="size-28 rounded-full" alt="" />
+        </div>
+        <p className="p-4 text-center tracking-wide lg:w-[70%] lg:text-xl lg:leading-snug">
+          I am Saran Sinha, a full-stack developer based in India. I build web
+          apps, solve algorithmic problems and write technical blogs. Want to
+          know more? Keep scrolling!
+        </p>
+        <div>
+          <Socials />
+        </div>
       </div>
     </div>
   );

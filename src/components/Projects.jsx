@@ -2,6 +2,7 @@ import React from "react";
 import { projectsData } from "../utils/projectsData";
 import { FaGithub } from "react-icons/fa";
 import { IoPaperPlaneOutline } from "react-icons/io5";
+// import { Link } from "react-router-dom";
 
 function Projects() {
   return (
@@ -9,22 +10,47 @@ function Projects() {
       <h3 className="text-center text-5xl font-normal leading-relaxed dark:text-gray-300">
         Projects
       </h3>
-      <div className="flex flex-wrap justify-center gap-10 p-8 md:gap-x-28">
+      <div className="flex flex-wrap justify-center gap-10 p-4 md:gap-x-2">
         {projectsData.map((project) => (
-          <div className="flex flex-col gap-4 rounded-xl bg-[#f8fbfb] p-4 shadow-[0_0_15px_rgba(0,0,0,0.2)] md:w-[400px] dark:bg-primary-400">
+          <div
+            onClick={() => window.open(project.live, "_blank")}
+            className="flex cursor-pointer justify-between gap-4 rounded-2xl p-6 text-gray-700 shadow-[0_0_15px_rgba(0,0,0,0.2)] max-md:flex-col md:h-[350px] md:w-[80%] lg:w-[65%] dark:bg-primary-400 dark:text-gray-300"
+          >
             <img
               src={project.src}
               alt=""
-              className="h-60 rounded-lg border border-gray-400 object-cover dark:border-none"
+              className="overflow-hidden rounded-lg border border-gray-400 object-cover transition-all hover:scale-105 md:w-1/2 dark:border-none"
             />
-            <span className="text-lg">{project.name}</span>
-            <div className="flex justify-between">
-              <a href={project.github} target="_blank">
-                <FaGithub size={24} />
-              </a>
-              <a href={project.live} target="_blank">
-                <IoPaperPlaneOutline size={24} />
-              </a>
+            <div className="flex flex-col gap-3 md:w-1/2">
+              <div className="flex w-full justify-between">
+                <span className="text-2xl font-semibold text-gray-600 dark:text-gray-300">
+                  {project.name}
+                </span>
+                <FaGithub
+                  size={24}
+                  onClick={() => window.open(project.github, "_blank")}
+                />
+              </div>
+              {/* <div className="flex gap-5">
+                <span>Tech Stack: </span>
+                <div className="flex flex-wrap gap-5">
+                  {project.tech.map((t) => {
+                    let T = t;
+                    return <T size={24} />;
+                  })}
+                </div>
+              </div> */}
+              <div className="text-xl font-light leading-8">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates magni consequatur repellat fugit? Quia est magnam
+                voluptatibus doloribus accusantium!
+              </div>
+              <div className="flex flex-wrap gap-5">
+                {project.tech.map((t) => {
+                  let T = t;
+                  return <T size={24} />;
+                })}
+              </div>
             </div>
           </div>
         ))}
