@@ -5,7 +5,7 @@ import { IoMoonOutline } from "react-icons/io5";
 function Navbar({ isDark, handleThemeChange }) {
   return (
     <div className="flex max-w-full justify-center text-primary-600 dark:text-gray-400">
-      <ul className="fixed top-3 z-10 m-auto flex max-w-[98%] flex-wrap items-center justify-center gap-4 rounded-full bg-transparent px-8 py-5 text-lg font-semibold shadow-[0_0_15px_rgba(0,0,0,0.1)] backdrop-blur-lg max-md:gap-3 max-md:px-6 lg:gap-16 dark:bg-[#ffffff0b]">
+      <ul className="fixed top-3 z-10 m-auto flex max-w-[98%] flex-wrap items-center justify-center gap-4 rounded-full bg-transparent px-8 py-5 text-lg font-semibold shadow-[0_0_15px_rgba(0,0,0,0.1)] backdrop-blur-lg max-md:gap-3 max-md:px-6 max-md:font-normal lg:gap-16 dark:bg-[#ffffff0b]">
         <li>
           <a href="#home" className="z-20 cursor-pointer">
             Home
