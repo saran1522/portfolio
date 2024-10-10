@@ -13,13 +13,14 @@ function Reports() {
       <div className="flex flex-wrap justify-center gap-10 p-4 md:gap-x-2">
         {projectsData.map((project) => (
           <div
+            key={project.name}
             onClick={() => window.open(project.live, "_blank")}
-            className="flex cursor-pointer flex-col justify-between gap-4 rounded-2xl p-3 text-gray-700 shadow-[0_0_15px_rgba(0,0,0,0.2)] md:w-[60%] dark:bg-zinc-800 dark:text-gray-300"
+            className="flex cursor-pointer flex-col justify-between gap-4 overflow-hidden rounded-2xl p-3 text-gray-700 shadow-[0_0_15px_rgba(0,0,0,0.2)] md:w-[60%] dark:bg-zinc-800 dark:text-gray-300"
           >
             <img
               src={project.src}
               alt=""
-              className="overflow-hidden rounded-lg border border-gray-400 object-cover transition-all hover:scale-105 max-md:h-[250px] dark:border-none"
+              className="rounded-lg border border-gray-400 object-cover transition-all hover:scale-105 max-md:h-[250px] dark:border-none"
             />
             <div className="flex flex-col gap-3">
               <div className="flex w-full justify-between">
@@ -36,7 +37,10 @@ function Reports() {
               </div>
               <div className="flex flex-wrap gap-3 text-base">
                 {project.tech.map((skill) => (
-                  <span className="rounded-full border border-gray-500 px-3 py-1 text-sm">
+                  <span
+                    key={skill}
+                    className="rounded-full border border-gray-500 px-3 py-1 text-sm"
+                  >
                     {skill}
                   </span>
                 ))}

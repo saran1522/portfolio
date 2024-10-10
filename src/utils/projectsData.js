@@ -38,15 +38,16 @@ export const projectsData = [
     // tech: [FaReact, FaJs],
     description:
       "A Full Stack Social Media Application. Functionalities include User Authentication, Profile Creation, Create & Read Posts and Like & Comment on Posts. User can also follow / unfollow other users.",
-    tech: [
-      "ReactJs",
-      "ExpressJs",
-      "NodeJs",
-      "MongoDB",
-      "Material UI",
-      "JavaScript",
-      "React-Router",
-    ],
+    tech: ["ReactJs", "ExpressJs", "NodeJs", "MongoDB", "Redux", "Material UI"],
+  },
+  {
+    name: "DnD-LLM",
+    src: "dndimg.jpg",
+    github: "https://github.com/saran1522/DnDLLM",
+    live: "https://dnd-llm.vercel.app/",
+    description:
+      "A Drag and Drop AI model builder using pretrained LLMs. User can create, test and deploy differnet models from Groq using drag and drop functionality. After deploying they can chat with the deployed model.",
+    tech: ["ReactJs", "React-Flow", "TailwindCSS", "Groq API"],
   },
   {
     name: "AI Content Generation Extension",
@@ -56,7 +57,7 @@ export const projectsData = [
     // tech: [FaReact, FaJs],
     description:
       "An AI Powered Content Generation Browser Extension. It shows an AI icon inside the input field on which the user can click, an interactive modal will open where user can generate content using AI. User can generate content for their blogs, articles, mails, social media posts etc. using this extension.",
-    tech: ["JavaScript", "Gemini API"],
+    tech: ["JavaScript", "Gemini API", "Webpack"],
   },
   {
     name: "EasyRooms",
@@ -78,14 +79,6 @@ export const projectsData = [
       "An AI conversation Chatbot application built using Gemini API. User can ask questions, get answers, and have a conversation with the AI Chatbot.",
     tech: ["ReactJs", "JavaScript", "TailwindCSS", "Gemini API"],
   },
-  // {
-  //   name: "TravelWise",
-  //   src: "travelwise.png",
-  //   github: "https://github.com/saran1522/TravelWise",
-  //   live: "https://travell-along.netlify.app/",
-  //   // tech: [FaReact, FaJs],
-  //   tech: ["ReactJs", "JavaScript", "Leaflet API"],
-  // },
   {
     name: "Crypto Tracker",
     src: "cryptotracker.png",
