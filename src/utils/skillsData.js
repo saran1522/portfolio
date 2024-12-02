@@ -1,6 +1,7 @@
 import { FaReact, FaNodeJs, FaPython, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiNextjsLine } from "react-icons/ri";
+import { RiFile4Line } from "react-icons/ri";
 import { GrMysql } from "react-icons/gr";
 import { IoIosArrowDropright } from "react-icons/io";
 import {
@@ -20,8 +21,8 @@ import {
   SiHtml5,
   SiClerk,
   SiGooglegemini,
-  SiReactrouter,
   SiDocker,
+  SiPrisma,
 } from "react-icons/si";
 
 export const skillsData = [
@@ -70,10 +71,6 @@ export const skillsData = [
     icon: SiRedux,
   },
   {
-    name: "React Router",
-    icon: SiReactrouter,
-  },
-  {
     name: "Tailwind",
     icon: SiTailwindcss,
   },
@@ -96,6 +93,14 @@ export const skillsData = [
   {
     name: "Supabase",
     icon: SiSupabase,
+  },
+  {
+    name: "NeonDB",
+    icon: RiFile4Line,
+  },
+  {
+    name: "Prisma",
+    icon: SiPrisma,
   },
   {
     name: "Docker",

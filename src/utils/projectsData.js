@@ -8,8 +8,8 @@ import {
 } from "react-icons/ri";
 import { SiMaterialdesign, SiMui } from "react-icons/si";
 
-const src =
-  "https://images.pixeden.com/images/psd-screen-web-showcase_full_preview_retina.jpg";
+// const src =
+//   "https://images.pixeden.com/images/psd-screen-web-showcase_full_preview_retina.jpg";
 export const projectsData = [
   {
     name: "ConnectifAI",
@@ -42,11 +42,11 @@ export const projectsData = [
   },
   {
     name: "DnD-LLM",
-    src: "dndimg.jpg",
+    src: "dndllm.jpg",
     github: "https://github.com/saran1522/DnDLLM",
     live: "https://dnd-llm.vercel.app/",
     description:
-      "A Drag and Drop AI model builder using pretrained LLMs. User can create, test and deploy differnet models from Groq using drag and drop functionality. After deploying they can chat with the deployed model.",
+      "A Drag and Drop AI agents builder. User can create, test and deploy differnet LLM models from Groq. After deploying they can chat with the deployed model.",
     tech: ["ReactJs", "React-Flow", "TailwindCSS", "Groq API"],
   },
   {

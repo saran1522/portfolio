@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 function Header({ isDark, handleThemeChange }) {
   return (
-    <div className="flex justify-center text-primary-600 dark:text-white">
+    <div className="flex justify-center">
       {/* <Navbar isDark={isDark} handleThemeChange={handleThemeChange} /> */}
     </div>
   );

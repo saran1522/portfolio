@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         PP: ["Poppins", "sans-serif"],
-        CF: ["Comfortaa", "sans-serif"],
+        IN: ["Inter", "sans-serif"],
       },
       colors: {
         primary: {

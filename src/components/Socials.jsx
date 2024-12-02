@@ -1,7 +1,4 @@
-import React from "react";
 import { socialsData } from "../utils/socialsData";
-import { IoMailOutline } from "react-icons/io5";
-import { PiNotepadLight } from "react-icons/pi";
 import SocialButton from "./SocialButton";
 
 function Socials() {
@@ -10,6 +7,7 @@ function Socials() {
       {socialsData.map((social) => {
         return (
           <SocialButton
+            key={social.name}
             name={social.name}
             icon={social.icon}
             url={social.url}
