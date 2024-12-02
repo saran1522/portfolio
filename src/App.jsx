@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div
-      className={`${isDark ? "dark" : ""} font-IN h-full bg-[#f9fefa] text-gray-600 dark:bg-black dark:text-slate-600`}
+      className={`${isDark ? "dark" : ""} h-full bg-[#f9fefa] font-IN font-light text-gray-600 dark:bg-black dark:text-slate-600`}
     >
       <div id="home">
         <Navbar isDark={isDark} handleThemeChange={handleThemeChange} />

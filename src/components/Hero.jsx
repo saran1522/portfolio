@@ -19,3 +19,4 @@ function Hero() {
 }
 
 export default Hero;
+// drop-shadow-[0_0_2em_#3ed5fff3]

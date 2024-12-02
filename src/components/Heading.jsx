@@ -1,6 +1,6 @@
 function Heading({ title }) {
   return (
-    <h3 className="text-center text-6xl font-semibold leading-relaxed">
+    <h3 className="text-center text-6xl font-medium leading-relaxed">
       {title}
     </h3>
   );

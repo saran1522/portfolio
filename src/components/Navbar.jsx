@@ -5,7 +5,7 @@ import NavLink from "./NavLink";
 function Navbar({ isDark, handleThemeChange }) {
   return (
     <div className="flex max-w-full items-center justify-center">
-      <ul className="ax-w-[98%] fixed top-3 z-10 m-auto flex flex-wrap items-center justify-center rounded-full bg-transparent px-8 py-5 shadow-[0_0_15px_rgba(0,0,0,0.1)] backdrop-blur-lg max-md:w-[95%] max-md:gap-6 max-md:px-4 max-md:font-normal lg:gap-12 dark:bg-[#ffffff15]">
+      <ul className="fixed top-3 z-10 m-auto flex max-w-[98%] flex-wrap items-center justify-center rounded-full bg-transparent px-8 py-5 shadow-[0_0_15px_rgba(0,0,0,0.1)] backdrop-blur-lg max-md:w-[98%] max-md:gap-4 max-md:px-4 max-md:font-normal lg:gap-12 dark:bg-[#ffffff15]">
         <NavLink title="Home" />
         <NavLink title="Projects" />
         <NavLink title="Skills" />

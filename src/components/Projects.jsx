@@ -20,24 +20,19 @@ function Projects() {
               alt=""
               className="object-cover transition-all hover:scale-105 max-md:h-[250px] dark:border-none"
             />
-            <div className="flex flex-col gap-3 p-5">
+            <div className="flex flex-col gap-3 p-3">
               <div className="flex w-full justify-between">
                 <span className="text-2xl font-semibold">{project.name}</span>
                 <div className="flex items-center gap-4 font-bold">
                   {/* <span className="text-xl font-light">Links: </span> */}
-                  <GoLinkExternal
-                    size={24}
-                    onClick={() => window.open(project.github, "_blank")}
-                  />
+                  <GoLinkExternal size={24} />
                   <VscGithubAlt
                     size={24}
                     onClick={() => window.open(project.github, "_blank")}
                   />
                 </div>
               </div>
-              <div className="text-base font-normal leading-8">
-                {project.description}
-              </div>
+              <div className="text-base leading-7">{project.description}</div>
               <div className="flex flex-wrap gap-3 text-base">
                 {project.tech.map((skill) => (
                   <span
