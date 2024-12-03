@@ -46,7 +46,7 @@ function Contact() {
           id=""
           className="w-[80%] rounded-xl border border-gray-300 bg-transparent p-4 dark:border-gray-700 dark:placeholder-slate-700"
         ></textarea>
-        <button className="w-[80%] rounded-lg bg-gray-900 p-4 text-center">
+        <button className="w-[80%] rounded-lg bg-gray-900 p-4 text-center text-slate-400">
           Send Message
         </button>
       </form>

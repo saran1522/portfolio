@@ -13,7 +13,7 @@ function Projects() {
           <div
             key={project.name}
             onClick={() => window.open(project.live, "_blank")}
-            className="flex cursor-pointer flex-col justify-between gap-4 overflow-hidden rounded-3xl border border-gray-300 md:w-[60%] dark:border-gray-800 max-md:dark:border-gray-700"
+            className="flex cursor-pointer flex-col justify-between gap-4 overflow-hidden rounded-3xl border border-gray-300 md:w-[60%] dark:border-gray-800"
           >
             <img
               src={project.src}
