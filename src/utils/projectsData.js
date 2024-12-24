@@ -18,7 +18,7 @@ export const projectsData = [
     live: "https://connectif-ai.vercel.app/",
     // tech: [FaReact, FaJs],
     description:
-      "A Realtime Video Confrencing application with AI support. Functionalities include Realtime Video Calling, Screen Sharing, Recording, AI Chatbot and more. User can create and join meetings, access upcoming & previous meetings and recordings.",
+      "A Realtime Video Conferencing application with AI support. Functionalities include Realtime Video Calling, Screen Sharing, Recording, AI Chatbot and more. User can create and join meetings, access upcoming & previous meetings and recordings.",
     tech: [
       "NextJs",
       "ReactJs",
